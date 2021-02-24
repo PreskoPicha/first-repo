@@ -1,0 +1,21 @@
+Console.WriteLine("Въведете десетично число");
+int chislo = int.Parse(Console.ReadLine());
+string chislo2 = Convert.ToString(chislo, 2);
+Console.WriteLine("Desetichno: " + chislo);
+Console.WriteLine("Dvoichno: " + chislo2);
+string chislo16 = Convert.ToString(chislo, 16);
+Console.WriteLine("Shestnaisetichno: "+chislo16);
+
+
+
+
+
+Console.WriteLine("Vuvedete dvoichno chislo = ");
+string chislo = Console.ReadLine();
+int chislo10 = Convert.ToInt32(chislo, 2);
+Console.WriteLine("Vuvedete dvoichno chislo = ");
+string chislo2 = Console.ReadLine();
+int chislo210 = Convert.ToInt32(chislo2, 2);
+int sum = chislo10 + chislo210;
+string sum2 = Convert.ToString(sum, 2);
+Console.WriteLine(sum2);
