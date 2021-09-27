@@ -4,16 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace broini
+namespace zad2
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.Write("Zapishete desetichno chislo: ");
-            int desetichno = int.Parse(Console.ReadLine());
-            string dvoichno = Convert.ToString(desetichno,2);
-            Console.WriteLine("dvoichno: " + dvoichno);
+            string chislo = "17";
+            int desetichno = Convert.ToInt32(chislo, 16);
+            string dvoichno = Convert.ToString(desetichno, 2);
+            Console.WriteLine(dvoichno);
         }
     }
 }
